@@ -13,44 +13,46 @@ body {
 
 .custom-button {
   padding: 5px 12px;
-  transition: all 0.2s linear;
   margin: 0px 5px;
+  background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
+  transition: all 0.2s linear;
 }
 
-#blue-button {
-  background-color: #ffffff;
+.custom-button:hover {
+  font-weight: bold;
+}
+
+.custom-button--blue {
   color: var(--blue);
   border-color: var(--blue);
 }
 
-#blue-button:hover {
+.custom-button--blue:hover {
+  color: #ffffff;
   background-color: var(--blue);
   border-color: var(--blue);
-  color: #ffffff;
 }
 
-#green-button {
-  background-color: #ffffff;
+.custom-button--green {
   color: var(--green);
   border-color: var(--green);
 }
 
-#green-button:hover {
+.custom-button--green:hover {
+  color: #ffffff;
   background-color: var(--green);
   border-color: var(--green);
-  color: #ffffff;
 }
 
-#red-button {
-  background-color: #ffffff;
+.custom-button--red {
   color: var(--red);
   border-color: var(--red);
 }
 
-#red-button:hover {
+.custom-button--red:hover {
+  color: #ffffff;
   background-color: var(--red);
   border-color: var(--red);
-  color: #ffffff;
 }
