@@ -1,0 +1,56 @@
+:root {
+  --azul: #033250;
+  --verde: #79c879;
+  --rojo: #ea0001;
+}
+
+html,
+body {
+  margin: 0 auto;
+  width: 90%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.boton-personalizado {
+  padding: 5px 12px;
+  transition: all 0.2s linear;
+  margin: 0px 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+#azul {
+  background-color: #ffffff;
+  color: var(--azul);
+  border-color: var(--azul);
+}
+
+#azul:hover {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  color: #ffffff;
+}
+
+#verde {
+  background-color: #ffffff;
+  color: var(--verde);
+  border-color: var(--verde);
+}
+
+#verde:hover {
+  background-color: var(--verde);
+  border-color: var(--verde);
+  color: #ffffff;
+}
+
+#rojo {
+  background-color: #ffffff;
+  color: var(--rojo);
+  border-color: var(--rojo);
+}
+
+#rojo:hover {
+  background-color: var(--rojo);
+  border-color: var(--rojo);
+  color: #ffffff;
+}
