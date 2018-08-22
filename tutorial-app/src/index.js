@@ -2,19 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './components/App';
+import CustomButton from './components/CustomButton';
+
+const blueButton = (
+  <CustomButton
+    className="custom-button custom-button--blue"
+    insideText="Blue (#033250)"
+  />
+);
+const greenButton = (
+  <CustomButton
+    className="custom-button custom-button--green"
+    insideText="Green (#79c879)"
+  />
+);
+const redButton = (
+  <CustomButton
+    className="custom-button custom-button--red"
+    insideText="Red (#ea0001)"
+  />
+);
 
 const paragraph = (
   <div>
     <p>Hello there</p>
-    <button class="custom-button" id="blue">
-      Blue (#033250)
-    </button>
-    <button class="custom-button" id="green">
-      Green (#79c879)
-    </button>
-    <button class="custom-button" id="red">
-      Red (#ea0001)
-    </button>
+    {blueButton}
+    {greenButton}
+    {redButton}
   </div>
 );
 
