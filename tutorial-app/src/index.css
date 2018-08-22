@@ -1,7 +1,7 @@
 :root {
-  --azul: #033250;
-  --verde: #79c879;
-  --rojo: #ea0001;
+  --blue: #033250;
+  --green: #79c879;
+  --red: #ea0001;
 }
 
 html,
@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.boton-personalizado {
+.custom-button {
   padding: 5px 12px;
   transition: all 0.2s linear;
   margin: 0px 5px;
@@ -19,38 +19,38 @@ body {
   font-size: 12px;
 }
 
-#azul {
+#blue-button {
   background-color: #ffffff;
-  color: var(--azul);
-  border-color: var(--azul);
+  color: var(--blue);
+  border-color: var(--blue);
 }
 
-#azul:hover {
-  background-color: var(--azul);
-  border-color: var(--azul);
+#blue-button:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
   color: #ffffff;
 }
 
-#verde {
+#green-button {
   background-color: #ffffff;
-  color: var(--verde);
-  border-color: var(--verde);
+  color: var(--green);
+  border-color: var(--green);
 }
 
-#verde:hover {
-  background-color: var(--verde);
-  border-color: var(--verde);
+#green-button:hover {
+  background-color: var(--green);
+  border-color: var(--green);
   color: #ffffff;
 }
 
-#rojo {
+#red-button {
   background-color: #ffffff;
-  color: var(--rojo);
-  border-color: var(--rojo);
+  color: var(--red);
+  border-color: var(--red);
 }
 
-#rojo:hover {
-  background-color: var(--rojo);
-  border-color: var(--rojo);
+#red-button:hover {
+  background-color: var(--red);
+  border-color: var(--red);
   color: #ffffff;
 }

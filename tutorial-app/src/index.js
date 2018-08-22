@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from '';
+// import App from './components/App';
 
-const parrafo = (
+const paragraph = (
   <div>
     <p>Hello there</p>
-    <button class="boton-personalizado" id="azul">Azul</button>
-    <button class="boton-personalizado" id="verde">Verde</button>
-    <button class="boton-personalizado" id="rojo">Rojo</button>
+    <button class="custom-button" id="blue">
+      Blue (#033250)
+    </button>
+    <button class="custom-button" id="green">
+      Green (#79c879)
+    </button>
+    <button class="custom-button" id="red">
+      Red (#ea0001)
+    </button>
   </div>
 );
 
-ReactDOM.render(parrafo, document.getElementById('root'));
+ReactDOM.render(paragraph, document.getElementById('root'));
