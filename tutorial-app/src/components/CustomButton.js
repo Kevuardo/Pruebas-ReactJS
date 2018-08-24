@@ -6,6 +6,6 @@ export default class CustomButton extends React.Component {
     }
 
     render() {
-        return <button className={this.props.className}>{this.props.insideText}</button>;
+        return <button className={this.props.className}>{this.props.text}</button>;
     }
 }
